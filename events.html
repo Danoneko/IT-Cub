@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        События - IT-CUBE.Адыгея
+    </title>
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="pop-up pop-up-background--blur container">
+        <div class="pop-up__place">
+            <div class="pop-up__place-into">
+                <div class="close-pop-up">
+                    <div class="close-pop-up__x">
+                        <div class="close-pop-up_1"></div>
+                        <div class="close-pop-up_2"></div>
+                    </div>                            
+                </div>
+                <div class="subscribe-form">
+                    <h2 class="pop-up__title title-xs">
+                        Запись на обучение
+                    </h2>
+                    <form action="#" class="pop-up__form" method="POST">
+                        <div class="form-group">
+                            <label class="form-group__label" for="full-name">
+                                ФИО ребенка *
+                            </label>
+                            <input type="text" class="form-group__input" name="full-name" placeholder="Иванов Иван Иванович">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-group__label" for="parent-full-name">
+                                ФИО родителя или законного представителя *
+                            </label>
+                            <input type="text" class="form-group__input" name="parent-full-name" placeholder="Введите ФИО родителя">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-group__label" for="phone">
+                                Номер телефона *
+                            </label>
+                            <input type="text" id="pop-up__phone" class="form-group__input" type="tel" name="phone" required minlength="11" maxlength="13" placeholder="+ 7 (000) 000 00 00">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-group__label" for="address">
+                                Адрес *
+                            </label>
+                            <input type="text" class="form-group__input" name="address" placeholder="Введите  адрес">
+                        </div>
+                        <button id="subscribe-form" class="sign-up__button button--m">
+                            Отправить заявку
+                        </button>
+                    </form>
+                </div>
+                <div class="success-form">
+                    <img src="system-images/form-success.svg" alt="" class="success-img">
+                    <h2 class="pop-up__title title-xs">
+                        Спасибо! Ваша заявка получена и зарегестрирована
+                    </h2>
+                    <p class="paragraph text-l">
+                        Вам остается лишь подъехать к нам и подписать документы на подачу заявления.
+                    </p>
+                    <div class="success-form__address">
+                        <p class="paragraph--grey-900">
+                            Адрес:
+                        </p>
+                        <p class="paragraph--blue-700">
+                            Республика Адыгея, г. Майкоп, ул. Первомайская, 208
+                        </p>
+                    </div>
+                    <button class="sign-up__button button--m close-success-form">
+                        Отлично!
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="scroll-up"></a>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__flex">
+                <div class="header__logo">
+                    <a href="index.html"><img src="system-images/logo_it-cube.svg" alt="" class="header__logo-images"></a>
+                </div>
+                <div class="header__close">
+                    <div class="header__close--font">
+                        <div class="header__close--1"></div>
+                        <div class="header__close--2"></div>
+                    </div>
+                </div>
+                <div class="header__main-menu">
+                    <nav class="menu">
+                        <div class="menu__menu-item">
+                            <a href="index.html">
+                                Главная
+                            </a>
+                        </div>
+                        <div class="menu__menu-item">
+                            <a href="about-progect.html">
+                                О проекте
+                            </a>
+                        </div>
+                        <div class="menu__menu-item">
+                            <a href="directions.html">
+                                Направления
+                            </a>
+                        </div>
+                        <div class="menu__menu-item menu__menu-item--active">
+                            <a href="events.html">
+                                События
+                            </a>
+                        </div>
+                        <div class="menu__menu-item">
+                            <a href="contacts.html">
+                                Контакты
+                            </a>
+                        </div>
+                    </nav>
+                    <div class="sign-up">
+                        <button class="sign-up__button button--s">
+                            Записаться
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>  
+    </header>
+    <section class="header-page background-white-800">
+        <div class="wrapper--s">
+            <h1 class="header-page__header title-xl color-blue-700">
+                События
+            </h1>
+        </div>
+    </section>
+    <section class="main">
+        <div class="wrapper">
+            <div class="events__content blocks">
+                <div class="blocks__block event__block">
+                    <a href="vserossiiski-metodicheski-seminar.html">
+                        <div class="block__image">
+                            <img src="archive-images/event__img-1.jpg" alt="" class="event__image">
+                        </div>
+                        <div class="block_content event__block-content">
+                            <div class="event_date">
+                                25 мая 2021
+                            </div>
+                            <div class="block__txt title-s">
+                                Всероссийский методический семинар
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="blocks__block event__block">
+                    <a href="letnyanya-shkola.html">
+                        <div class="block__image">
+                            <img src="archive-images/event__img-2.jpg" alt="" class="event__image">
+                        </div>
+                        <div class="block_content event__block-content">
+                            <div class="event_date">
+                                4 июля 2021
+                            </div>
+                            <div class="block__txt title-s">
+                                XVI Межрегиональная Летняя школа по программированию
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__up">
+            <div class="wrapper">
+                <div class="footer__content">
+                    <div class="footer__logo">
+                        <div class="footer__element">
+                            <img src="system-images/logo_it-cube--white.svg" alt="">
+                            <div class="social">
+                                <a href="https://ru-ru.facebook.com/">
+                                    <div class="social_soc social_soc--facebook"></div>
+                                </a>
+                                <a href="https://www.instagram.com/">
+                                    <div class="social_soc social_soc--instagram"></div>
+                                </a>
+                                <a href="https://twitter.com/">
+                                    <div class="social_soc social_soc--twitter"></div>
+                                </a>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="footer__element">
+                        <h2 class="footer__header">
+                            Структура
+                        </h2>
+                        <p class="footer__paragraph--link">
+                            <a href="index.html">
+                                Главная
+                            </a> 
+                        </p>
+                        <p class="footer__paragraph--link">
+                            <a href="about-progect.html">
+                                О проекте
+                            </a> 
+                        </p>
+                        <p class="footer__paragraph--link">
+                            <a href="directions.html">
+                                Направления
+                            </a> 
+                        </p>
+                        <p class="footer__paragraph--link">
+                            <a href="events.html">
+                                События
+                            </a> 
+                        </p>
+                        <p class="footer__paragraph--link">
+                            <a href="contacts.html">
+                                Контакты
+                            </a> 
+                        </p>
+                    </div>
+                    <div class="footer__element">
+                        <h2 class="footer__header">
+                            Контакты
+                        </h2>
+                        <div class="footer__paragraph">
+                            <p>
+                                Электронная почта:
+                            </p>
+                            <a href="mailto:itcube01@yandex.ru">
+                                itcube01@yandex.ru
+                            </a>
+                        </div>
+                        <div class="footer__paragraph">
+                            <p>
+                                Телефон:
+                            </p>
+                            <a href="tel:+7 928 669 11 31">
+                                +7 (928) 669 - 11 - 31
+                            </a>
+                        </div>
+                        <div class="footer__paragraph">
+                            <p>
+                                Адрес:
+                            </p>
+                            <p class="color-white-900">
+                                РЕМШ <br>
+                                Республика Адыгея,
+                                г. Майкоп, ул. Советская, 180. <br>
+                                АГУ  <br>
+                                Республика Адыгея,
+                                г. Майкоп, ул. Первомайская, 208
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer__element">
+                        <h2 class="footer__header">
+                            Структура
+                        </h2>
+                        <p class="footer__paragraph--link">
+                            <a href="admission-procedure.html">
+                                Порядок приема
+                            </a> 
+                        </p>
+                        <p class="footer__paragraph--link">
+                            <a href="directions.html">
+                                Направления
+                            </a> 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__down">
+            <div class="wrapper">
+                <p class="footer__down-txt">
+                    © 2021 IT-CUBE. Адыгея. Все права защищены
+                </p>
+            </div>
+        </div>
+    
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>    <script src="js/script.js"></script>
+    <!-- <script src="js/jquery.maskedinput.min.js"></script> -->
+</body>
+</html>
